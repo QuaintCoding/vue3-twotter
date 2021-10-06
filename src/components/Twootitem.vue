@@ -12,7 +12,6 @@
 </template>
 
 <script>
-
 export default {
   name: 'TwootItem',
   props: {
@@ -43,11 +42,9 @@ export default {
     cursor: pointer;
     transition: all 0.25s ease;
 }
-
 .twoot-item:hover {
     transform: scale(1.1, 1.1);
 }
-
 .twoot-item__user {
     font-weight: bold;
 }

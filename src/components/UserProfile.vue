@@ -44,7 +44,6 @@
 
 <script>
 import TwootItem from "./Twootitem.vue"
-
 export default {
   name: 'UserProfile',
   components: { TwootItem },
@@ -113,7 +112,6 @@ export default {
     width: 100%;
     padding: 50px 5%;
 }
-
 .user-profile__user-panel{
     display: flex;
     flex-direction: column;
@@ -123,11 +121,9 @@ export default {
     border-radius: 5px;
     border: 1px solid #DFE3E8;
 }
-
 h1{
     margin: 0;
 }
-
 .user-profile__admin-badge {
     background-color: rebeccapurple;
     color: white;
@@ -136,7 +132,6 @@ h1{
     padding: 0 10px;
     font-weight: bold;
 }
-
 .user-profile__create-twoot {
     padding-top: 20px;
     display: flex;
